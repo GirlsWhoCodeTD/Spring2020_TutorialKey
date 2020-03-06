@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<!-- comment out the line below to see what it's like with/without css -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="custom.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="col-12 center">
+		<h1>Welcome to my website</h1>
+
+		<img src="images/totoro_gif.gif" width="200" height="200"/>
+
+      <h2>This tutorial will teach you some foundations of HTML, Javascript, and CSS </h2>
+    </div>
+    
+    <div class="row">
+    <div class="col-4">
+      <h3>What is HTML?</h3>
+      
+      <p>HTML is the hidden language of the web that uses tags to create page structure. Because there is SO MUCH you can do with HTML, it is unrealistic to expect anyone to be able to learn it all in a 10 week session, but we are going to do our best.</p>
+
+      <a href="https://www.w3schools.com/html/default.asp">I am a link to helpful content! Click me and read through some stuff you can do with HTML. Refer to me when you need help with HTML</a>
+    </div>
+
+    <div class="col-4 blue center">
+        <h3>How do I make this pretty?</h3>
+
+        <ul>
+          <li>CSS (Cascading Style Sheets) is the language that makes our website beautiful</li>
+          <li>Uncomment the css link above to see the transformation!</li>
+        </ul>
+      </div> 
+
+      <div class="col-4">
+        <h3>How do I make my site do things?</h3>
+        <ol>
+          <li>Javascript gives our website functionality. Many web based games are written in Javascript. If you've ever filled out an online form, Javascript is how the website processes your information.</li>
+          <li>The stuff below is set using Javascript!</li>
+        </ol>
+        <span id="dynamicText"></span>
+        <br>
+        <button onClick="showMessage()">Click me for a secret message</button>
+        <span id="secret"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
